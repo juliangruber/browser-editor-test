@@ -1,0 +1,44 @@
+{
+  "name": "browser-editor-test",
+  "version": "1.0.0",
+  "description": "This is what it is about",
+  "keywords": [],
+  "author": "juliangruber <julian@juliangruber.com>",
+  "repository": "git://github.com/juliangruber/browser-editor-test.git",
+  "main": "index",
+  "homepage": "https://github.com/juliangruber/browser-editor-test",
+  "contributors": [{
+    "name": "juliangruber"
+  }],
+  "bugs": {
+    "url": "https://github.com/juliangruber/browser-editor-test/issues",
+    "email": "julian@juliangruber.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/juliangruber/browser-editor-test/raw/master/LICENSE"
+  }],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
